@@ -1,0 +1,17 @@
+.international{
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 20px;
+
+    &__title{
+        background: #4f89b9;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+
+    &__container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 2em;
+    }
+}
