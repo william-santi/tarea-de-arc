@@ -4,14 +4,21 @@
     padding: 10px 20px;
 
     &__title{
-        background: #4f89b9;
+        background: var(--background-color);
+        color: var(--color-light-text);
         margin-bottom: 10px;
-        color: #fff;
+        padding-left: 4px;
     }
 
     &__container{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         gap: 2em;
+    }
+
+    @media (max-width:639px) {
+        &__container{
+            grid-template-columns: repeat(1,1fr);
+        }
     }
 }

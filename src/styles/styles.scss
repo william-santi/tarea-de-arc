@@ -3,5 +3,25 @@
     margin: 0;
 }
 
+:root {
+    --color-background: #f8f8f8;
+    --color-texto: #4f89b9;
+    --color-light-text:#fff;
+    --background-color:  #4f89b9;
+    --background-btn:  #fc7540;
+    --subtitle-color: #dddd10;
+}
+
+a,button,
+[type="button"],
+[type="submit"] {
+    cursor: pointer;
+}
+
+#root,html,body {
+    height: 100%;
+    background: var(--color-background);
+}
+
 @import './components/';
 @import './pages/';
